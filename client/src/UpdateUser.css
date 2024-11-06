@@ -1,0 +1,67 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 800px; /* Increased width for wider form */
+    padding: 40px; /* Increased padding */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    text-align: center; /* Center-align text within the container */
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold; /* Bold labels */
+}
+
+.form-group input {
+    width: 100%;
+    padding: 14px; /* Larger padding for bigger input fields */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 18px; /* Increased font size */
+    font-weight: bold; /* Bold input text */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Center-align button */
+}
+
+.btn {
+    padding: 14px 28px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px; /* Larger font size for button */
+    font-weight: bold; /* Bold button text */
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
